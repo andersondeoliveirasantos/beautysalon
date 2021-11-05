@@ -1,23 +1,65 @@
-/* RESET */
+/* ===============  RESET  =============== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-
+a {
+  text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* ===============  VARIABLES  =============== */
+:root {
+  --hue: 159;
+  /* HSL color mode*/
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%)
+  --base-color-alt: hsl (var(--hue) 57% 53%)
+  --title-color: hsl(var(--hue) 41% 10%  )
+  --text-color: hsl(0 0% 46%)
+  --text-color-light: hsl(0 0% 98%)
+  --body-color: hsl(0 0% 98%)
+}
+
+/* ===============  BASE  =============== */
+body {
+  font: 400 1rem 'DM Sans', sans-serif;
+  color: var(--text-color)
+  background: var(--body-color);
+}
+
+h1 {
+  font: 700 1.875rem 'Poppins' sans-serif;
+  color: var(--title-color);
+}
+
+.button {
+  
+}
+
+/* ===============  LAYOUT  =============== */
 #header {
   height: 4.5rem;
 }
 
-.logo {
+nav {
+  display: flex; 
+  justify-content: space-between;
+}
 
+.logo {
 }
 
 .conteiner {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
+
+/* ===============  HOME  =============== */
