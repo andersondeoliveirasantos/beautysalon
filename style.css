@@ -138,7 +138,7 @@ nav ul li a:hover {
 }
 
 nav ul li a::after {
-  content: "";
+  content: '';
   width: 0;
   height: 2px;
   background: var(--base-color);
@@ -251,3 +251,5 @@ nav.show div.icon-close {
 #home .text p {
   margin-bottom: 2rem;
 }
+
+/* ===============  ABOUT  =============== */
