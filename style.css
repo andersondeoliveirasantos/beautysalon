@@ -38,7 +38,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1 {
+.title {
   font: 700 1.875rem 'Poppins' sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;
@@ -97,14 +97,11 @@ h1 {
   width: 100%;
 }
 
-nav {
-  height: var(--header-height);
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+main {
+  margin-top: calc(var(--header-height) + 2rem);
 }
 
+/* ===============  LOGO  =============== */
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: var(--title-color);
@@ -114,9 +111,34 @@ nav {
   color: var(--base-color );
 }
 
-main {
-  margin-top: var(--header-height);
+/* ===============  NAVIGATION  =============== */
+nav {
+  height: var(--header-height);
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
+
+nav .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav.show .menu {
+  opacity: 1;
+  visibility: visible;
+
+  background: var(--body-color);
+
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /* ===============  HOME  =============== */
 #home {
   overflow: hidden;
