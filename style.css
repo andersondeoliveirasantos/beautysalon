@@ -73,8 +73,16 @@ nav {
   margin-right: 1.5rem;
 }
 
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
 .section {
   padding: 5rem 0;
 }
 
 /* ===============  HOME  =============== */
+#home .conteiner {
+  margin: 0;
+}
