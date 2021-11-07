@@ -1,4 +1,4 @@
-/* ===============  RESET  =============== */
+	/*====  RESET ============================ */
 * {
   margin: 0;
   padding: 0;
@@ -18,13 +18,13 @@ img {
   height: auto;
 }
 
-/* ===============  VARIABLES  =============== */
+/*====  VARIABLES ============================ */
 :root {
   --header-height: 4.5rem;
 
-  /* color */
-  --hue: 240;
-  /* HSL color mode*/
+  /* colors */
+  --hue: 159;
+  /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
@@ -34,7 +34,7 @@ img {
   --body-color: hsl(0 0% 98%);
 }
 
-/* ===============  BASE  =============== */
+/*===  BASE ============================ */
 html {
   scroll-behavior: smooth;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .title {
-  font: 700 1.875rem 'Poppins' sans-serif;
+  font: 700 1.875rem 'Poppins', sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -61,7 +61,7 @@ body {
   padding: 0 2rem;
   border-radius: 0.25rem;
   font: 500 1rem 'DM Sans', sans-serif;
-  transition: background 0.3s
+  transition: background 0.3s;
 }
 
 .button:hover {
@@ -71,7 +71,7 @@ body {
 .divider-1 {
   height: 1px;
   background: linear-gradient(
-    270deg, 
+    270deg,
     hsla(var(--hue), 36%, 57%, 1),
     hsla(var(--hue), 65%, 88%, 0.34)
   );
@@ -80,14 +80,14 @@ body {
 .divider-2 {
   height: 1px;
   background: linear-gradient(
-    270deg, 
+    270deg,
     hsla(var(--hue), 65%, 88%, 0.34),
     hsla(var(--hue), 36%, 57%, 1)
   );
 }
 
-/* ===============  LAYOUT  =============== */
-.conteiner {
+/*====  LAYOUT ============================ */
+.container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -134,20 +134,20 @@ main {
   margin-top: calc(var(--header-height) + 2rem);
 }
 
-/* ===============  LOGO  =============== */
+/*====  LOGO ============================ */
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: var(--title-color);
 }
 
 .logo span {
-  color: var(--base-color );
+  color: var(--base-color);
 }
 
-/* ===============  NAVIGATION  =============== */
+/*====  NAVIGATION ============================ */
 nav {
   height: var(--header-height);
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -168,7 +168,7 @@ nav ul li a:hover {
 
 nav ul li a::after {
   content: '';
-  width: 0;
+  width: 0%;
   height: 2px;
   background: var(--base-color);
 
@@ -194,7 +194,7 @@ nav .menu ul {
   display: none;
 }
 
-/* Mostra menu */
+/* Mostrar menu */
 nav.show .menu {
   opacity: 1;
   visibility: visible;
@@ -220,7 +220,7 @@ nav.show ul.grid {
   gap: 4rem;
 }
 
-/* togle menu */
+/* toggle menu */
 .toggle {
   color: var(--base-color);
   font-size: 1.5rem;
@@ -244,12 +244,12 @@ nav.show div.icon-close {
   top: 1.5rem;
 }
 
-/* ===============  HOME  =============== */
+/*====  HOME ============================ */
 #home {
   overflow: hidden;
 }
 
-#home .conteiner {
+#home .container {
   margin: 0;
 }
 
@@ -292,12 +292,12 @@ nav.show div.icon-close {
   margin-bottom: 2rem;
 }
 
-/* ===============  ABOUT  =============== */
+/*====  ABOUT ============================ */
 #about {
   background: white;
 }
 
-#about .conteiner {
+#about .container {
   margin: 0;
 }
 
@@ -312,7 +312,7 @@ nav.show div.icon-close {
   background: var(--base-color-second);
   position: absolute;
   top: -8.3%;
-  left: -33%%;
+  left: -33%;
   z-index: 0;
 }
 
@@ -330,7 +330,7 @@ nav.show div.icon-close {
   margin-right: 1.5rem;
 }
 
-/* ===============  SERVICES  =============== */
+/*====  SERVICES ============================ */
 .cards.grid {
   gap: 1.5rem;
 }
@@ -338,7 +338,7 @@ nav.show div.icon-close {
 .card {
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-  border-bottom: 0,25rem solid var(--base-color);
+  border-bottom: 0.25rem solid var(--base-color);
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
 }
@@ -351,6 +351,6 @@ nav.show div.icon-close {
 }
 
 .card .title {
- font-size: 1.5rem;
- margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
 }

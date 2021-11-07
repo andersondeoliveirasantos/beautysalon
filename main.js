@@ -1,6 +1,6 @@
-/* Abre e fecha o Menu quando clicar no icone: hamburguer e x */
+/*  abre e fecha o menu quando clicar no icone: hamburguer e x */
 const nav = document.querySelector('#header nav')
-const toggle = document.querySelector('nav .toggle')
+const toggle = document.querySelectorAll('nav .toggle')
 
 for (const element of toggle) {
   element.addEventListener('click', function () {
@@ -11,7 +11,7 @@ for (const element of toggle) {
 /* Quando clicar em um icone do Menu, esconder o Menu */
 const links = document.querySelectorAll('nav ul li a')
 
-for(const link of links) {
+for (const link of links) {
   link.addEventListener('click', function () {
     nav.classList.remove('show')
   })
@@ -21,12 +21,12 @@ for(const link of links) {
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
 
-window.addEventListener('scroll', function() {
-  if(window.scrollY >= navHeight) {
+window.addEventListener('scroll', function () {
+  if (window.scrollY >= navHeight) {
     // scroll é maior que a altura do header
     header.classList.add('scroll')
   } else {
     // Menor que a altura do header
-    header.classList.remover('scroll')
+    header.classList.remove('scroll')
   }
 })
