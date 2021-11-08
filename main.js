@@ -55,16 +55,24 @@ scrollReveal.reveal(
   #services header, #services .card,
   #testimonials header, #testimonials .testimonials
   #contact .text, #contact .links
+  footer .brand, footer .social
   `,
   { interval: 100 }
 )
 
 /* Botão voltar para o topo */
-const backToTopButton = document.querySelector('.back-to-top')
-windon.addEventListener('scroll', function () {
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
   }
+}
+
+/* When Scroll */
+window.addEventListener('scroll', function() {
+  changeHeaderWhenScroll()
+  backToTop()
 })
