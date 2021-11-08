@@ -38,22 +38,23 @@ const swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination'
   },
   mousewheel: true,
-  Keyboard: true
+  keyboard: true
 })
 
-/* ScrollReveal: Mostrar elementos quando der croll na página */
-const scrollReveal = scrollReveal({
+/* ScrollReveal: Mostrar elementos quando der scroll na página */
+const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
   duration: 700,
-  rest: true
+  reset: true
 })
 
 scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonial header, #testimonials .testimonials
+  #testimonials header, #testimonials .testimonials
   #contact .text, #contact .links
-  `, { interval: 100 }
-  )
+  `,
+  { interval: 100 }
+)

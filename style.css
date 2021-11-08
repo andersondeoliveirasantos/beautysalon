@@ -1,4 +1,4 @@
-	/*====  RESET ============================ */
+/*====  RESET ============================ */
 * {
   margin: 0;
   padding: 0;
@@ -374,7 +374,7 @@ nav.show div.icon-close {
 #testimonials blockquote {
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-  border-radius: 0.25rem  ;
+  border-radius: 0.25rem;
 }
 
 #testimonials blockquote p {
@@ -403,7 +403,7 @@ nav.show div.icon-close {
   height: 2rem;
   object-fit: cover;
   clip-path: circle();
-margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 /* swiper */
