@@ -612,6 +612,16 @@ footer .social a:hover {
   margin-right: auto;
 }
 
+/* contact */
+#contact .container {
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+#contact .text {
+  max-width: 25rem;
+}
+
 /* large devices: 1023 > */
 /* large devices: 992 > */
 @media (min-width: 992px) {
