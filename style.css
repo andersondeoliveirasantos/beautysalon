@@ -622,6 +622,22 @@ footer .social a:hover {
   max-width: 25rem;
 }
 
+/* footer */
+footer.section {
+  padding: 3.75rem 0;
+}
+
+footer .container {
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+footer .logo {
+  font-size: 2.25rem;
+}
+
 /* large devices: 1023 > */
 /* large devices: 992 > */
 @media (min-width: 992px) {
