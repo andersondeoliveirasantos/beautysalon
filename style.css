@@ -50,7 +50,6 @@ body {
   font: 400 1rem var(--body-font);
   color: var(--text-color);
   background: var(--body-color);
-  -webkit-font-smoothing: antialiased;
 }
 
 .title {
@@ -173,11 +172,13 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a.active {
   color: var(--base-color);
 }
 
-nav ul li a::after {
+nav ul li a::after,
+  nav ul li a.active {
   content: '';
   width: 0%;
   height: 2px;
@@ -190,7 +191,8 @@ nav ul li a::after {
   transition: width 0.2s;
 }
 
-nav ul li a:hover::after {
+nav ul li a:hover::after,
+nav ul li a.active::after {
   width: 100%;
 }
 
@@ -561,6 +563,12 @@ footer .social a:hover {
 
   nav .menu ul li a.title {
     font: 400 1rem var(--body-font);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav .menu ul li a.title.active {
+    font-weight: bold;
+    -webkit-font-smoothing: auto;
   }
 
   nav .icon-menu {

@@ -92,6 +92,18 @@ function activateMenuAtCurrentSection() {
     const checkpointStrat = checkpoint >= sectionTop
     const checkpointEnd = checkpoint <= sectionTop + sectionHeight
     
+    if(checkpointStrat && checkpointEnd) {
+      document
+        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .classList.add('active')
+
+    } else {
+      document
+        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .classList.remove('active')
+
+    }
+
   }
 
 }
