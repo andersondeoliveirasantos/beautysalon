@@ -82,6 +82,18 @@ function backToTop() {
 const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
 
+  const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
+
+  for( const section of sections ) {
+    const sectionTop = section.offsetTop
+    const sectionHeight = section.offsetHeight
+    const sectionId = section.getAttribute('id')
+
+    const checkpointStrat = checkpoint >= sectionTop
+    const checkpointEnd = checkpoint <= sectionTop + sectionHeight
+    
+  }
+
 }
 
 /* When Scroll */
