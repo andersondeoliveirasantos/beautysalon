@@ -650,7 +650,7 @@ footer .social a:hover {
   }
 }
 /* large devices: 1023 > */
-
+@media (min-width: 1023px) {
 
 
 
