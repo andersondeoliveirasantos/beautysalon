@@ -665,5 +665,5 @@ footer .social a:hover {
 }
 
 /* medium devices: 767 > */
-
+@media (min-width: 767px) {
 
