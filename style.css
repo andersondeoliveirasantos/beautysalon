@@ -652,9 +652,15 @@ footer .social a:hover {
 /* large devices: 1023 > */
 @media (min-width: 1023px) {
 
+}
 
+.container {
 
+}
 
+.section {
+  
+}
 
 /* large devices: 992 > */
 @media (min-width: 992px) {
