@@ -659,7 +659,11 @@ footer .social a:hover {
 }
 
 .section {
-  
+
+}
+
+.button {
+
 }
 
 /* large devices: 992 > */
@@ -673,3 +677,14 @@ footer .social a:hover {
 /* medium devices: 767 > */
 @media (min-width: 767px) {
 
+.container {
+
+  }
+
+.section {
+
+}
+
+.button {
+  
+}
