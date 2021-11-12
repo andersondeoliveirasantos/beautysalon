@@ -651,8 +651,7 @@ footer .social a:hover {
 }
 /* large devices: 1023 > */
 @media (min-width: 1023px) {
-
-}
+  /* reusable classes */
 
 .container {
 
@@ -668,6 +667,7 @@ footer .social a:hover {
 
 
 }
+}
 
 /* navigation */
 
@@ -677,7 +677,7 @@ footer .social a:hover {
 
  /* home */
 
- 
+
 /* about */
 
 
