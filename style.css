@@ -669,11 +669,12 @@ footer .social a:hover {
 
 
 }
-}
+
 /* navigation */
  /* layout */
  /* home */
 /* about */
+}
 
 
 /* large devices: 992 > */
@@ -698,11 +699,12 @@ footer .social a:hover {
 
 
 }
-}
+
 /* navigation */
 /* layout */
 /* home */
 /* about */
+}
 
 
 /* medium devices: 767 > */
@@ -723,11 +725,12 @@ footer .social a:hover {
 
 
 }
-}
+
 /* navigation */
 /* layout */
 /* home */
 /* about */
+}
 
 
 /* medium devices: 539 > */
@@ -738,30 +741,26 @@ footer .social a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-}
+
 /* navigation */
 /* layout */
 /* home */
 /* about */
+}
 
 
 /* medium devices: 309 > */
 @media (min-width: 309) {
   /* reusable classes */
   .container {
-    max-width: 539px;
+    max-width: 309px;
     margin-left: auto;
     margin-right: auto;
   }
-}
+
   /* navigation */
-  
-  
   /* layout */
-  
-  
   /* home */
-  
-  
   /* about */
+}
 
