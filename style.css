@@ -649,6 +649,8 @@ footer .social a:hover {
     font-size: 2.25rem;
   }
 }
+
+
 /* large devices: 1023 > */
 @media (min-width: 1023px) {
   /* reusable classes */
@@ -747,21 +749,23 @@ footer .social a:hover {
 
 
 /* medium devices: 309 > */
-@media (min-width: 309px) {
+@media (min-width: 309) {
   /* reusable classes */
   .container {
-    max-width: 309px;
+    max-width: 539px;
     margin-left: auto;
     margin-right: auto;
   }
 }
-/* navigation */
+  /* navigation */
+  
+  
+  /* layout */
+  
+  
+  /* home */
+  
+  
+  /* about */
 
-
-/* layout */
-
-
-/* home */
-
-
-/* about */
+}
