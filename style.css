@@ -652,11 +652,11 @@ footer .social a:hover {
 /* large devices: 1023 > */
 @media (min-width: 1023px) {
   /* reusable classes */
-
-.container {
-
-
-}
+  .container {
+    max-width: 1023px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .section {
 
@@ -683,8 +683,9 @@ footer .social a:hover {
   }
 
 .container {
-
-
+  max-width: 992px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section {
@@ -708,8 +709,9 @@ footer .social a:hover {
 @media (min-width: 767px) {
   /* reusable classes */
 .container {
-
-
+  max-width: 767px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section {
@@ -726,4 +728,40 @@ footer .social a:hover {
 /* navigation */
 /* layout */
 /* home */
+/* about */
+
+
+/* medium devices: 539 > */
+@media (min-width: 539px) {
+  /* reusable classes */
+  .container {
+    max-width: 539px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* navigation */
+/* layout */
+/* home */
+/* about */
+
+
+/* medium devices: 309 > */
+@media (min-width: 309px) {
+  /* reusable classes */
+  .container {
+    max-width: 309px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* navigation */
+
+
+/* layout */
+
+
+/* home */
+
+
 /* about */
