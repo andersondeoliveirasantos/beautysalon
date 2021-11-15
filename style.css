@@ -655,9 +655,9 @@ footer .social a:hover {
 @media (min-width: 1023px) {
   /* reusable classes */
   .container {
-    max-width: 1023px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: ;
+    margin-left: ;
+    margin-right: ;
   }
 
 .section {
@@ -678,16 +678,16 @@ footer .social a:hover {
 
 
 /* large devices: 992 > */
-@media (min-width: 992px) {
+@media (min-width: ) {
   :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
+    --title-font-size: ;
+    --subtitle-font-size: ;
   }
 
 .container {
-  max-width: 992px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: ;
+  margin-left: ;
+  margin-right: ;
 }
 
 .section {
@@ -708,12 +708,12 @@ footer .social a:hover {
 
 
 /* medium devices: 767 > */
-@media (min-width: 767px) {
+@media (min-width: ) {
   /* reusable classes */
 .container {
-  max-width: 767px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: ;
+  margin-left: ;
+  margin-right: ;
 }
 
 .section {
@@ -734,12 +734,12 @@ footer .social a:hover {
 
 
 /* medium devices: 539 > */
-@media (min-width: 539px) {
+@media (min-width: ) {
   /* reusable classes */
   .container {
-    max-width: 539px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: ;
+    margin-left: ;
+    margin-right: ;
   }
 
 /* navigation */
@@ -750,12 +750,12 @@ footer .social a:hover {
 
 
 /* medium devices: 309 > */
-@media (min-width: 309) {
+@media (min-width: ) {
   /* reusable classes */
   .container {
-    max-width: 309px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: ;
+    margin-left: ;
+    margin-right: ;
   }
 
   /* navigation */
