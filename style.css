@@ -586,7 +586,7 @@ footer .social a:hover {
     margin-top: var(--header-height);
   }
 
-/* home */
+  /* home */
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -594,7 +594,7 @@ footer .social a:hover {
   }
 
   #home .image {
-   order: 1;
+    order: 1;
   }
 
   #home .text {
@@ -609,7 +609,7 @@ footer .social a:hover {
     grid-auto-flow: column;
   }
 
-/* services */
+  /* services */
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -619,13 +619,13 @@ footer .social a:hover {
     padding-right: 3rem;
   }
 
-/* testimonials */
+  /* testimonials */
   #testimonials .container {
     margin-left: auto;
     margin-right: auto;
   }
 
-/* contact */
+  /* contact */
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -635,7 +635,7 @@ footer .social a:hover {
     max-width: 25rem;
   }
 
-/* footer */
+  /* footer */
   footer.section {
     padding: 3.75rem 0;
   }
@@ -651,7 +651,6 @@ footer .social a:hover {
   }
 }
 
-
 /* large devices: 1023 > */
 @media (min-width: ) {
   /* reusable classes */
@@ -661,22 +660,17 @@ footer .social a:hover {
     margin-right: ;
   }
 
-.section {
+  .section {
+  }
 
+  .button {
+  }
 
+  /* navigation */
+  /* layout */
+  /* home */
+  /* about */
 }
-
-.button {
-
-
-}
-
-/* navigation */
- /* layout */
- /* home */
-/* about */
-}
-
 
 /* large devices: 992 > */
 @media (min-width: ) {
@@ -685,54 +679,44 @@ footer .social a:hover {
     --subtitle-font-size: ;
   }
 
-.container {
-  max-width: ;
-  margin-left: ;
-  margin-right: ;
+  .container {
+    max-width: ;
+    margin-left: ;
+    margin-right: ;
+  }
+
+  .section {
+  }
+
+  .button {
+  }
+
+  /* navigation */
+  /* layout */
+  /* home */
+  /* about */
 }
-
-.section {
-
-
-}
-
-.button {
-
-
-}
-
-/* navigation */
-/* layout */
-/* home */
-/* about */
-}
-
 
 /* medium devices: 767 > */
 @media (min-width: ) {
   /* reusable classes */
-.container {
-  max-width: ;
-  margin-left: ;
-  margin-right: ;
+  .container {
+    max-width: ;
+    margin-left: ;
+    margin-right: ;
+  }
+
+  .section {
+  }
+
+  .button {
+  }
+
+  /* navigation */
+  /* layout */
+  /* home */
+  /* about */
 }
-
-.section {
-
-
-}
-
-.button {
-
-
-}
-
-/* navigation */
-/* layout */
-/* home */
-/* about */
-}
-
 
 /* medium devices: 539 > */
 @media (min-width: ) {
@@ -743,12 +727,11 @@ footer .social a:hover {
     margin-right: ;
   }
 
-/* navigation */
-/* layout */
-/* home */
-/* about */
+  /* navigation */
+  /* layout */
+  /* home */
+  /* about */
 }
-
 
 /* medium devices: 309 > */
 @media (min-width: ) {
@@ -764,4 +747,3 @@ footer .social a:hover {
   /* home */
   /* about */
 }
-
