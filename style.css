@@ -543,6 +543,14 @@ footer .social a:hover {
     padding: 10rem 0;
   }
 
+  .section header,
+  #testimonials header {
+    max-width: 32rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* navigation */
 
   /* layout */
