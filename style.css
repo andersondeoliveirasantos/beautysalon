@@ -530,6 +530,28 @@ footer .social a:hover {
 
 /*========= MEDIA QUERIES =========*/
 
+/* medium devices: 309 > */
+@media (min-width: 309) {
+  /* reusable classes */
+  .container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    padding: 10rem 0;
+  }
+
+  /* navigation */
+
+  /* layout */
+
+  /* home */
+
+  /* about */
+}
+
 /* extra large devices: 1200 > */
 @media (min-width: 1200px) {
   /* reusable classes */
@@ -730,27 +752,5 @@ footer .social a:hover {
   /* navigation */
   /* layout */
   /* home */
-  /* about */
-}
-
-/* medium devices: 309 > */
-@media (min-width: ) {
-  /* reusable classes */
-  .container {
-    max-width: 1120px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .section {
-    padding: 10rem 0;
-  }
-
-  /* navigation */
-
-  /* layout */
-
-  /* home */
-
   /* about */
 }
