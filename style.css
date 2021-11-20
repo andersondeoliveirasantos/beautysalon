@@ -572,6 +572,15 @@ footer .social a:hover {
     -webkit-font-smoothing: antialiased;
   }
 
+  nav .menu ul li a.title.active {
+    font-weight: bold;
+    -webkit-font-smoothing: auto;
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
   /* layout */
 
   /* home */
