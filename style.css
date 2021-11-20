@@ -556,6 +556,11 @@ footer .social a:hover {
   }
 
   /* navigation */
+  nav .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
 
   /* layout */
 
