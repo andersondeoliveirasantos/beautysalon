@@ -551,6 +551,10 @@ footer .social a:hover {
     margin-right: auto;
   }
 
+  .button {
+    height: 3.124rem;
+  }
+
   /* navigation */
 
   /* layout */
