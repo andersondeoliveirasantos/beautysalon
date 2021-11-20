@@ -562,6 +562,11 @@ footer .social a:hover {
     top: 0;
   }
 
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
   /* layout */
 
   /* home */
