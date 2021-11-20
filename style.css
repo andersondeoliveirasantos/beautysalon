@@ -567,6 +567,11 @@ footer .social a:hover {
     gap: 2rem;
   }
 
+  nav .menu ul li a.tittle {
+    font: 400 1rem var(--body-font);
+    -webkit-font-smoothing: antialiased;
+  }
+
   /* layout */
 
   /* home */
