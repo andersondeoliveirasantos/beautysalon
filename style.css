@@ -106,6 +106,7 @@ body {
 
 .section {
   padding: calc(5rem + var(--header-height)) 0;
+  position: relative;
 }
 
 .section .title {
@@ -306,6 +307,11 @@ nav.show div.icon-close {
 }
 
 /*====  ABOUT ============================ */
+
+/*-------------------------------------------------------------------------------
+  ABOUT
+--------------------------------------------------------------------------------*/
+
 #about {
   background: white;
 }
@@ -417,6 +423,10 @@ nav.show div.icon-close {
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.5rem;
+}
+
+.testimonials {
+  overflow: hidden;
 }
 
 /* swiper */
