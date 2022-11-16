@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>
-    Site desenvolvido por <strong>Anderson de Oliveira Santos</strong>, através do projeto <strong>OriginSix</strong>, <br> da <i>Trilha Discover</i> da Plataforma da <strong>RocketSeat</strong>. <br><br> Para acessar o site <strong>BeautySalon</strong>, <a href="https://joaoalfredoalves.github.io/beautysalon/" target="_blank">Clique Aqui!</a>
+    Site desenvolvido por <strong>Anderson de Oliveira Santos</strong>, através do projeto <strong>OriginSix</strong>, <br> da <i>Trilha Discover</i> da Plataforma da <strong>RocketSeat</strong>. <br><br> Para acessar o site <strong>BeautySalon</strong>, <a href="https://beautysalon-site.netlify.app/#home" target="_blank">Clique Aqui!</a>
   </p>
 </div>
 
@@ -45,16 +45,4 @@ Ele tem intuito de ser uma plataforma para divulgação de comércios. Ele foi d
 - JavaScript
 - Figma ( Design )
 
-&nbsp;
-  
-## 📜 Licença
-  
-Este repositório está sob licença MIT. Você pode ver o arquivo <a href="https://github.com/felipecastrosales/Happy/blob/master/LICENSE" rel="nofollow">LICENSE</a> para mais detalhes.
-
-&nbsp;
-  
-  <div align="center">
-    <pre>Desenvolvido por <strong>João Alfredo Alves</strong> 🚀</pre>
-  </div>
-  
 </div>
